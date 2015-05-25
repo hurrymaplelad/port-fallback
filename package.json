@@ -1,0 +1,28 @@
+{
+  "name": "port-fallback",
+  "version": "0.0.0",
+  "description": "Start a server on an available port",
+  "author": "Adam Hull <adam@hmlad.com>",
+  "keywords": [
+    "http",
+    "listen",
+    "EADDRINUSE"
+  ],
+  "main": "port_fallback",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hurrymaplelad/port-fallback.git"
+  },
+  "homepage": "https://github.com/hurrymaplelad/port-fallback",
+  "bugs": "https://github.com/hurrymaplelad/port-fallback/issues",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": ">=1.7.x",
+    "mocha": "~1.x.x",
+    "jshint": "*"
+  },
+  "scripts": {
+    "test": "jshint *.js && mocha"
+  }
+}
