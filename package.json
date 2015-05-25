@@ -1,6 +1,6 @@
 {
   "name": "port-fallback",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Start a server on an available port",
   "author": "Adam Hull <adam@hmlad.com>",
   "keywords": [
